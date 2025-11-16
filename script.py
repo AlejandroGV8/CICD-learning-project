@@ -1,5 +1,5 @@
 def main():
-    print("Hello, World!")
+    print("¡Hola desde GitHub Actions!")
 
 if __name__ == "__main__":
     main()
