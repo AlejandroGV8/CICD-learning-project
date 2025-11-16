@@ -1,3 +1,10 @@
+import sys
+from pathlib import Path
+
+# Añadir la carpeta raíz del proyecto al path
+sys.path.append(str(Path(__file__).parent.parent))
+
+# Ahora funciona aunque script.py esté en la raíz
 from script import main
 
 def test_main_output(capsys):
