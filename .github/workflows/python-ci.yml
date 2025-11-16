@@ -22,7 +22,14 @@ jobs:
     - name: Instalar dependencias
       run: |
         pip install -r requirements.txt
+        pip install --upgrade pip
+        pip install pytest
 
     - name: Ejecutar el script principal
       run: |
         python script.py
+    
+    - name: Ejecutar tests con pytest
+      run: |
+        pytest
+
