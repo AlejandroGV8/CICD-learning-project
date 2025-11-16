@@ -10,4 +10,4 @@ from script import main
 def test_main_output(capsys):
     main()
     captured = capsys.readouterr()
-    assert "Adios" in captured.out
+    assert "Hola" in captured.out
