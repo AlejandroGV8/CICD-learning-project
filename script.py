@@ -4,7 +4,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-def suma(a,b):
-    print(f"La suma de 2 y 3 es: {resultado}")
+def suma(a, b):
     return a + b
     
